@@ -17,7 +17,7 @@ const TicTacToeClient = Client({
   game: TicTacToe,
   board: TicTacToeBoard,
   debug: false,
-  multiplayer: SocketIO({ server: "https://tictactoecarey.azurewebsites.net/" })
+  multiplayer: SocketIO({ server: "https://tictactoecarey.azurewebsites.net:8080" })
 });
 
 class App extends React.Component {
